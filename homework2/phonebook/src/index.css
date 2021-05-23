@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 300px;
+  background-color: rgb(145, 210, 253);
+  padding: 16px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+.contacts {
+  width: 300px;
+  background-color: rgb(145, 210, 253);
+  padding: 16px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  list-style-type: none
+}
+
+.form-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form-control {
+  margin-bottom: 8px;
+  
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.contacts-label {
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+.form-input {
+  width: 100%;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  padding: 4px;
+  outline: none;
+}
+
+.submit-button {
+  width: 100%;
+  height: 32px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-top: 16px;
+  background-color: coral;
+  color: white;
+}
+
+.stat-list {
+  list-style-type: none
+}
