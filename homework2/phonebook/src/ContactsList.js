@@ -12,11 +12,11 @@ class ContactsList extends Component {
     return (
       <div className="contacts">
         <h1>Contacts:</h1>
-        <ul className=".stat-list">
+        <ul className="create-list">
           {this.state.contacts.map(contact => (
             <li key={contact.id}>
               {contact.name}
-              <button>x</button>
+              <button className="button-list">x</button>
             </li>
           ))}
         </ul>
